@@ -1,0 +1,191 @@
+body {
+    /* margin: 20px; */
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    color: black;
+    background-color: rgb(250, 240, 217);
+    
+    font-family: "Bon Vivant", sans-serif;
+  }
+  #navbar{
+   
+    background-color:transparent;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    background-image: url(Design.jpg);
+    background-size: cover;
+    padding-right: 3%;
+    padding-left: 1.75%;
+  }
+
+  a{
+    color: rgb(250, 240, 217); 
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  a:hover {
+    color: rgb(60, 238, 89);
+  }
+
+
+  .container{
+        text-align: left;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+  }
+
+  h4{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  h3{
+    text-align: center;
+    font-family:'Lucida Sans', sans-serif;
+  }
+  h1{
+    text-align: center;
+  }
+
+  #home{
+    text-align: center;
+  }
+  #steps{
+      display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin:5px;
+  }
+  #steps div{
+    text-align:center;
+        margin:3.25%;
+  }
+  
+  #whydetails{
+          display: flex;
+          justify-content: space-evenly;
+          align-content: center;
+        }
+
+        #whydetails img{
+            height: 100px;
+        }
+
+  .about-us img {
+        width: 100%; 
+        height: 100vh; 
+ 
+  }
+  #customersreviews{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  .slide{
+    /* width: 20%; */
+  }
+#allratings{
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+  
+  
+  .star {
+    color: gold;
+    font-size: 2em;
+  }
+
+  .reviews .slide{
+    margin: 0.25%;
+    padding: 2em;
+    border: 2px solid;
+    text-align: center;
+  }
+
+  .reviews .slide p{
+    font-size: 0.75em;
+    line-height: 2;
+    padding:   1rem 0;
+  }
+
+  .reviews .slide h3{
+    font-size: 1.5rem;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  footer{
+    position: relative;
+    width: 100%;
+    background-image: url(Design.jpg);
+    background-size: cover;
+    padding: 20px 5opx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  footer .social_icon , footer.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  footer .social_icon li{
+    list-style: none;
+  }
+  
+  footer .social_icon li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  footer .social_icon li a:hover{
+    transform: translateY(-10px);
+  }
+  
+  footer.menu a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+    /* justify-content:space-between; */
+    
+  }
+  
+  footer.menu a:hover{
+    opacity: 1;
+  }
+  
+  footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }

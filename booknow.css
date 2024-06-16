@@ -1,0 +1,254 @@
+
+
+body {
+    /* margin: 20px; */
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    color: black;
+    background-color: rgb(250, 240, 217);
+    font-family: "Bon Vivant", sans-serif;
+    
+  }
+h1{
+      display: flex;
+    align-items:center;
+    justify-content: center;
+    color:white;
+    text-align:center;
+    padding-top: 3.5em;
+    
+    font-family: Algerian, sans-serif; 
+}
+h2{
+    font-family: "Lucida Handwriting", cursive;
+  }
+  h3{
+    
+    font-family: "Bon Vivant", sans-serif;
+  }
+#navbar{
+   
+    background-color:transparent;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    background-image: url(Design.jpg);
+    background-size: cover;
+    padding-right: 3%;
+    padding-left: 1.75%;
+  }
+  a{
+    color: rgb(250, 240, 217); 
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  a:hover {
+    color: rgb(60, 238, 89);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  footer{
+    position: relative;
+    width: 100%;
+    background-image: url(Design.jpg);
+    background-size: cover;
+    padding: 20px 5opx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  footer .social_icon , footer.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  footer .social_icon li{
+    list-style: none;
+  }
+  
+  footer .social_icon li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  footer .social_icon li a:hover{
+    transform: translateY(-10px);
+  }
+  
+  footer.menu a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+    /* justify-content:space-between; */
+    
+  }
+  
+  footer.menu a:hover{
+    opacity: 1;
+  }
+  
+  footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+.banner{
+    height:300px;
+    width: 100%;
+    background-image:url("sports-banner.png");
+    background-size: cover;
+    background-position: center; 
+  
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#location{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#location img{
+    width: 15vw;
+    height: 150px;
+    
+}
+
+.sublocation{
+    padding: 0.1%;
+    text-align: center;
+}
+
+    
+#location a{
+    color: black;
+    font-size:1.5em;
+}
+#location a:hover{
+    opacity: 0.5;
+}
+h2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 1em;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 1.5%; /* Adjusted margin for h3 */
+    font-size: 1.5em;
+    color: rgb(60, 238, 89);
+    text-align: center;
+    padding-bottom:1%;
+
+}
+p{
+    font-size: 1em;
+}
+#alllocations h2{
+    font-size: 2.2em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+    margin: 1.8%;   
+    color:rgb(250, 240, 217);
+}
+.column{
+    background-image: url(Designcrop.jpg);
+    background-size: cover;
+    padding: 2%;
+    width: 45vw;
+}
+
+.card {
+    padding: 10px;
+    text-align: center;
+}
+.container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 1.05em;
+    font-style: italic;
+}
+
+.container a:hover {
+    color: rgb(60, 238, 89);
+}
+
+
+.booknow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(60, 238, 89);
+    width: 200px;
+    font-size: 1.2em;
+}
+.booknow a{
+    text-decoration: none;
+    
+    color: white;
+    
+    height: 50px;
+    font-family: "Bon Vivant", sans-serif;
+    
+    font-style: normal;
+    
+}
+.booknow a:hover{
+    color: black;
+    font-size: 1.5em;
+}
+    
+#alllocations img{
+    width: 40vw;
+    height: 250px;
+    padding:5%;
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating{
+    font-size: 1.5em;
+}
+.price{
+    font-size: 1.5em;
+}
